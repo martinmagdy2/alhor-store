@@ -220,7 +220,7 @@
 .fd-card::before {
   content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 2px; pointer-events: none;
   background: linear-gradient(140deg, var(--gold-300), transparent 45%, var(--accent-red));
-  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude;
   mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0); opacity: 0; transition: opacity 0.4s;
 }
 .fd-card:hover { transform: translateY(-10px); box-shadow: 0 34px 56px -24px rgba(196, 156, 67, 0.55); }
