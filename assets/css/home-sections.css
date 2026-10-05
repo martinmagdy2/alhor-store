@@ -1398,4 +1398,16 @@ html[dir="rtl"] .luxury-banner__overlay {
 @media (max-width: 520px) {
   .trust__list { grid-template-columns: 1fr; }
   .trust__item { border-inline-start: 0; padding-inline: 0; }
+  
+  /* Hero button mobile size tweak */
+  .hero__caption .btn--lg {
+    font-size: 15px;
+    padding: 12px 24px;
+    min-height: 48px;
+  }
+  .hero__caption .btn--lg .btn__orb {
+    width: 30px;
+    height: 30px;
+    margin-inline-start: 10px !important;
+  }
 }
