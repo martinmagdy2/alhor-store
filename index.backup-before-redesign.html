@@ -1,0 +1,1950 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>الحر | ALHOR — معدات التخييم والصيد والرحلات الفاخرة</title>
+  <meta name="description" content="الحر لمستلزمات الصيد والرحلات — متجرك الأول لأفضل معدات التخييم والمقناص والطبخ البري وجلسات وخيم المجالس. شحن سريع لجميع أنحاء الإمارات.">
+  <meta name="theme-color" content="#775b29">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/img/brand/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/brand/apple-touch-icon.png">
+
+  <!-- Google Fonts: IBM Plex Sans Arabic + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Skip link -->
+<a href="#main" class="skip-link">تخطي إلى المحتوى</a>
+
+<!-- ══════════════════════════════════════════
+     Selia-Style Running Marquee Ticker (Top)
+     ══════════════════════════════════════════ -->
+<div class="top-banner" aria-label="إعلان أعلى الموقع">
+  <div class="container" style="display: flex; justify-content: center; align-items: center; text-align: center;">
+    <span>شحن مجاني للطلبات اكثر من 500 درهم 📦</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     Header (Selia-Style Multi-tier Header)
+     ══════════════════════════════════════════ -->
+<header class="header" id="header">
+  <div class="header__utility">
+    <div class="container header__utility-inner">
+      <div class="header__utility-side">
+        <a href="mailto:info@alhor.sa"><svg class="icon"><use href="#i-email"/></svg> info@alhor.sa</a>
+        <span class="sep">|</span>
+        <a href="tel:8001111210"><svg class="icon"><use href="#i-phone"/></svg> 8001111210</a>
+      </div>
+      <div class="header__utility-side">
+        <div class="dropdown-light"><span>🇦🇪 درهم إماراتي</span></div>
+        <span class="sep">|</span>
+        <div class="dropdown-light"><span>🌐 العربية</span></div>
+        <span class="sep">|</span>
+        <a href="#privacy">سياسة الخصوصية</a>
+        <span class="sep">|</span>
+        <a href="#blog">المدونة</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="header__main container">
+    <!-- Left Actions -->
+    <div class="header__actions header__actions--left">
+      <button class="icon-btn" id="btn-cart" aria-label="سلة المشتريات">
+        <svg class="icon"><use href="#i-bag"/></svg>
+        <span class="badge" id="cart-badge" data-empty="true">0</span>
+      </button>
+      <button class="icon-btn" aria-label="الحساب الشخصي">
+        <svg class="icon"><use href="#i-user"/></svg>
+      </button>
+    </div>
+
+    <!-- Center Logo -->
+    <a href="/" class="header__logo" aria-label="الحر — الرئيسية">
+      <img src="assets/img/brand/logo-horizontal.webp" alt="ALHOR — الحر لمستلزمات الصيد والرحلات" loading="eager">
+    </a>
+
+    <!-- Right Actions -->
+    <div class="header__actions header__actions--right">
+      <button class="icon-btn mobile-nav-toggle" id="btn-mobile-nav" aria-label="فتح القائمة الرئيسية" title="القائمة">
+        <span class="hamburger-icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+      <button class="icon-btn" id="btn-theme-toggle" aria-label="تبديل الوضع">
+        <svg class="icon"><use href="#i-sun"/></svg>
+      </button>
+      <button class="icon-btn" id="btn-search" aria-label="البحث في المتجر">
+        <svg class="icon"><use href="#i-search"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Centered Nav -->
+  <nav class="header__nav container" aria-label="القائمة الرئيسية">
+    <ul>
+      <li class="has-dropdown">
+        <a href="#categories">الأقسام <svg class="icon"><use href="#i-chevron-d"/></svg></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-grid">
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">🏕️</span><span>لوازم الرحلات و التخييم</span></a>
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">🔥</span><span>المواقد و لوازم الشواء</span></a>
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">🍳</span><span>مطبخ البر</span></a>
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">🧳</span><span>لوازم السفر</span></a>
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">🔪</span><span>السكاكين و المسنات</span></a>
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">💡</span><span>الكشافات و الإضاءة</span></a>
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">🚙</span><span>معدات السيارات</span></a>
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">🦅</span><span>لوازم الصيد والمقناص</span></a>
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">🦯</span><span>العصي</span></a>
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">🕶️</span><span>ساعات - كابات - نظارات</span></a>
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">⛺</span><span>جلسات و خيم المجالس</span></a>
+            <a href="#products-tabs" class="dropdown-item"><span class="dropdown-item__icon">🎲</span><span>العاب</span></a>
+          </div>
+        </div>
+      </li>
+      <li><a href="#flash-deals">عروض حصرية 🔥</a></li>
+      <li><a href="#bundles">بكجات التوفير</a></li>
+      <li><a href="#products-tabs" data-filter="hunting">مقناص وسكاكين</a></li>
+      <li><a href="#products-tabs" data-filter="camp">جلسات وخيم</a></li>
+      <li><a href="#products-tabs" data-filter="kitchen">مطبخ وشواء</a></li>
+      <li><a href="#products-tabs" data-filter="lights">كشافات وإضاءة</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ══════════════════════════════════════════
+     Hero (Full-Bleed 100vw Video, Zero Margins)
+     ══════════════════════════════════════════ -->
+<section class="hero" id="hero" aria-label="البانر الرئيسي الكامل">
+  <div class="hero__media">
+    <video class="hero__video is-active" src="assets/video/hero-1.mp4"
+           autoplay muted playsinline preload="auto"
+           poster="assets/img/lifestyle/editorial-camp.webp"
+           data-idx="0"></video>
+    <video class="hero__video" src="assets/video/hero-2.mp4"
+           muted playsinline preload="auto"
+           data-idx="1"></video>
+    <div class="hero__shade"></div>
+    <div class="hero__grain" aria-hidden="true"></div>
+  </div>
+
+  <div class="hero__caption">
+    <div class="hero__caption-inner">
+      <p class="hero__caption-sub">اكتشف الطبيعة بفخامة</p>
+      <h2 class="hero__caption-title">معدات الرحلات والصيد الاستثنائية</h2>
+      <a href="#categories" class="btn btn--primary btn--lg" style="box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+        تسوق التشكيلة الآن
+        <span class="btn__orb" style="margin-inline-start: 12px; margin-inline-end: -10px;"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     Selia-Style Story Highlights (12 Categories)
+     ══════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════
+     Selia-Style Story Highlights (12 Categories)
+     ══════════════════════════════════════════ -->
+<section class="stories-bar" id="quick-categories" aria-label="أقسام المتجر السريعة">
+  <div class="container">
+    <div class="stories-header">
+      <div class="stories-header__title-wrap">
+        <span class="stories-badge">
+          <span class="stories-badge__pulse" aria-hidden="true"></span>
+          <span>التصنيفات الرئيسية</span>
+        </span>
+        <h2 class="stories-title">تسوق حسب الفئة</h2>
+      </div>
+
+      <div class="stories-controls" aria-label="أزرار تصفح الأقسام">
+        <button type="button" class="stories-nav-btn stories-nav-btn--prev" id="stories-btn-prev" aria-label="السابق" title="السابق">
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+        </button>
+        <button type="button" class="stories-nav-btn stories-nav-btn--next" id="stories-btn-next" aria-label="التالي" title="التالي">
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="stories-wrapper">
+      <div class="stories-track" id="stories-track" role="list">
+        <!-- 1 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="camp" role="listitem" title="لوازم الرحلات والتخييم">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/products/chair.webp" alt="لوازم الرحلات والتخييم" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+            <span class="story-tag story-tag--hot">الأكثر طلباً</span>
+          </div>
+          <span class="story-name">لوازم الرحلات والتخييم</span>
+          <span class="story-count">+85 منتج</span>
+        </a>
+
+        <!-- 2 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="kitchen" role="listitem" title="المواقد ولوازم الشواء">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/products/gas-griddle.webp" alt="المواقد ولوازم الشواء" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+            <span class="story-tag story-tag--offer">خصم 30%</span>
+          </div>
+          <span class="story-name">المواقد ولوازم الشواء</span>
+          <span class="story-count">+42 منتج</span>
+        </a>
+
+        <!-- 3 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="kitchen" role="listitem" title="مطبخ البر">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/products/gas-stove.webp" alt="مطبخ البر" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+          </div>
+          <span class="story-name">مطبخ البر</span>
+          <span class="story-count">+36 منتج</span>
+        </a>
+
+        <!-- 4 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="camp" role="listitem" title="لوازم السفر">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/products/travel-bag.webp" alt="لوازم السفر" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+          </div>
+          <span class="story-name">لوازم السفر</span>
+          <span class="story-count">+28 منتج</span>
+        </a>
+
+        <!-- 5 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="hunting" role="listitem" title="السكاكين والمسنات">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/categories/knives.webp" alt="السكاكين والمسنات" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+            <span class="story-tag story-tag--new">وصل حديثاً</span>
+          </div>
+          <span class="story-name">السكاكين والمسنات</span>
+          <span class="story-count">+54 منتج</span>
+        </a>
+
+        <!-- 6 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="lights" role="listitem" title="الكشافات والإضاءة">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/products/tripod-light.webp" alt="الكشافات والإضاءة" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+          </div>
+          <span class="story-name">الكشافات والإضاءة</span>
+          <span class="story-count">+38 منتج</span>
+        </a>
+
+        <!-- 7 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="camp" role="listitem" title="معدات السيارات">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/categories/car-gear.webp" alt="معدات السيارات" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+          </div>
+          <span class="story-name">معدات السيارات</span>
+          <span class="story-count">+24 منتج</span>
+        </a>
+
+        <!-- 8 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="hunting" role="listitem" title="لوازم الصيد والمقناص">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/categories/hunting.webp" alt="لوازم الصيد والمقناص" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+            <span class="story-tag story-tag--vip">🦅 مقناص فاخر</span>
+          </div>
+          <span class="story-name">لوازم الصيد والمقناص</span>
+          <span class="story-count">+62 منتج</span>
+        </a>
+
+        <!-- 9 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="hunting" role="listitem" title="العصي التراثية">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/categories/canes.webp" alt="العصي التراثية" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+          </div>
+          <span class="story-name">العصي التراثية</span>
+          <span class="story-count">+19 منتج</span>
+        </a>
+
+        <!-- 10 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="all" role="listitem" title="ساعات وكابات ونظارات">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/categories/accessories.webp" alt="ساعات - كابات - نظارات" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+          </div>
+          <span class="story-name">ساعات وكابات ونظارات</span>
+          <span class="story-count">+31 منتج</span>
+        </a>
+
+        <!-- 11 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="camp" role="listitem" title="جلسات وخيم المجالس">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/products/majlis-tent.webp" alt="جلسات وخيم المجالس" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+            <span class="story-tag story-tag--best">خيم ملكية</span>
+          </div>
+          <span class="story-name">جلسات وخيم المجالس</span>
+          <span class="story-count">+18 منتج</span>
+        </a>
+
+        <!-- 12 -->
+        <a href="#products-tabs" class="story-item" data-cat-filter="all" role="listitem" title="ألعاب الكشتات">
+          <div class="story-ring-wrap">
+            <div class="story-ring">
+              <div class="story-avatar">
+                <img src="assets/img/categories/games.webp" alt="ألعاب الكشتات" loading="lazy" width="90" height="90">
+              </div>
+            </div>
+          </div>
+          <span class="story-name">ألعاب الكشتات</span>
+          <span class="story-count">+15 منتج</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     Selia-Style Brand Logos Marquee
+     ══════════════════════════════════════════ -->
+<section class="brands-band" aria-label="العلامات التجارية الشريكة">
+  <div class="brands-track">
+    <div class="brand-pill">🦅 ALHOR PRO</div>
+    <div class="brand-pill">⚡ LUMINOX</div>
+    <div class="brand-pill">🔪 VICTORINOX</div>
+    <div class="brand-pill">⛺ COLEMAN</div>
+    <div class="brand-pill">💡 PETZL</div>
+    <div class="brand-pill">☕ STANLEY</div>
+    <div class="brand-pill">🏔️ SNOW PEAK</div>
+    <div class="brand-pill">🔥 JETBOIL</div>
+    <div class="brand-pill">🛠️ LEATHERMAN</div>
+    <div class="brand-pill">🍳 PRIMUS</div>
+    <!-- Loop -->
+    <div class="brand-pill">🦅 ALHOR PRO</div>
+    <div class="brand-pill">⚡ LUMINOX</div>
+    <div class="brand-pill">🔪 VICTORINOX</div>
+    <div class="brand-pill">⛺ COLEMAN</div>
+    <div class="brand-pill">💡 PETZL</div>
+    <div class="brand-pill">☕ STANLEY</div>
+    <div class="brand-pill">🏔️ SNOW PEAK</div>
+    <div class="brand-pill">🔥 JETBOIL</div>
+    <div class="brand-pill">🛠️ LEATHERMAN</div>
+    <div class="brand-pill">🍳 PRIMUS</div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     Main Content
+     ══════════════════════════════════════════ -->
+<main id="main">
+
+  <!-- ══════════════════════════════════════════
+       Selia Component: Flash Sale & Live Countdown
+       ══════════════════════════════════════════ -->
+  <section class="flash-deals-section" id="flash-deals" aria-labelledby="flash-title">
+    <div class="container">
+      <div class="flash-deals-grid">
+        <!-- Content & Live Countdown -->
+        <div class="flash-content">
+          <span class="flash-badge">🔥 عروض البر الكبرى لفترة محدودة</span>
+          <h2 class="flash-title" id="flash-title">
+            وفّر حتى <span class="highlight">45%</span> على أقوى معدات الكشتة والتخييم
+          </h2>
+          <p class="flash-desc">
+            اغتنم الفرصة الذهبية لتجهيز رحلات الشتاء والمقناص بأفضل الأسعار. تخفيضات مباشرة على الخيم الملكية، مواقد الحطب، وكشافات البر طويلة المدى.
+          </p>
+
+          <!-- Live Countdown Timer -->
+          <div class="countdown-wrap" aria-label="الوقت المتبقي لانتهاء العرض">
+            <div class="countdown-box">
+              <span class="countdown-digit" id="cd-days">03</span>
+              <span class="countdown-label">أيام</span>
+            </div>
+            <div class="countdown-box">
+              <span class="countdown-digit" id="cd-hours">14</span>
+              <span class="countdown-label">ساعة</span>
+            </div>
+            <div class="countdown-box">
+              <span class="countdown-digit" id="cd-mins">38</span>
+              <span class="countdown-label">دقيقة</span>
+            </div>
+            <div class="countdown-box">
+              <span class="countdown-digit" id="cd-secs">52</span>
+              <span class="countdown-label">ثانية</span>
+            </div>
+          </div>
+
+          <div class="flash-actions">
+            <a href="#products-tabs" class="btn btn--primary btn--lg">
+              تسوق كل العروض المخفضة
+              <span class="btn__orb"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+            </a>
+            <div class="coupon-tag" title="اضغط لنسخ الكود" onclick="navigator.clipboard?.writeText('ALHOR15'); alert('تم نسخ كود الخصم ALHOR15!');">
+              <svg class="icon" style="width:18px;height:18px;"><use href="#i-gift"/></svg>
+              <span>كود إضافي: ALHOR15</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Deal Cards -->
+        <div class="flash-cards">
+          <!-- Card 1 -->
+          <div class="flash-card" data-id="deal1" data-name="موقد حطب وتدفئة ستانلس ستيل مع مدخنة زجاجية" data-price="480" data-oldprice="650" data-catname="المواقد ولوازم الشواء" data-img="assets/img/products/wood-stove.webp">
+            <div class="flash-card__img">
+              <span class="flash-discount">-26%</span>
+              <img src="assets/img/products/wood-stove.webp" alt="موقد حطب وتدفئة" loading="lazy">
+            </div>
+            <h3 class="flash-card__title">موقد حطب وتدفئة ستانلس ستيل مع مدخنة زجاجية</h3>
+            <div class="flash-card__meter">
+              <div class="meter-label">
+                <span>الكمية المحجوزة</span>
+                <strong style="color:var(--accent-red)">متبقي 4 قطع فقط!</strong>
+              </div>
+              <div class="meter-bar">
+                <div class="meter-fill" style="width: 82%;"></div>
+              </div>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">480 <small>د.إ</small></span>
+                <s class="price__old">650 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة">
+                <svg class="icon i-default"><use href="#i-plus"/></svg>
+                <svg class="icon i-check"><use href="#i-check"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="flash-card" data-id="deal2" data-name="خيمة مجلس ملكية فاخرة مقاومة للمطر والرياح" data-price="890" data-oldprice="1200" data-catname="جلسات وخيم المجالس" data-img="assets/img/products/majlis-tent.webp">
+            <div class="flash-card__img">
+              <span class="flash-discount">-25%</span>
+              <img src="assets/img/products/majlis-tent.webp" alt="خيمة مجلس ملكية" loading="lazy">
+            </div>
+            <h3 class="flash-card__title">خيمة مجلس ملكية فاخرة مقاومة للمطر والرياح</h3>
+            <div class="flash-card__meter">
+              <div class="meter-label">
+                <span>الكمية المحجوزة</span>
+                <strong style="color:var(--accent-red)">متبقي 6 قطع فقط!</strong>
+              </div>
+              <div class="meter-bar">
+                <div class="meter-fill" style="width: 74%;"></div>
+              </div>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">890 <small>د.إ</small></span>
+                <s class="price__old">1,200 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة">
+                <svg class="icon i-default"><use href="#i-plus"/></svg>
+                <svg class="icon i-check"><use href="#i-check"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       Interactive Product Showcase Tabs (Selia Style)
+       ══════════════════════════════════════════ -->
+  <section class="section" id="products-tabs" aria-labelledby="products-head-title" style="background:var(--sand);">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow reveal">مختارات وتخفيضات المتجر</p>
+          <h2 class="section-title reveal" id="products-head-title" style="--d:.06s">
+            أقوى المنتجات والعروض <span class="brand-word">المختارة</span>
+          </h2>
+          <p class="section-sub reveal" style="--d:.12s">
+            تصفح مجموعاتنا حسب التصنيف واستفد من الخصومات الفورية والتوصيل السريع
+          </p>
+        </div>
+        <a href="#categories" class="link-arrow reveal" style="--d:.18s">
+          عرض جميع الأقسام
+          <svg class="icon"><use href="#i-arrow-left"/></svg>
+        </a>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="chips reveal" style="--d:.2s; margin-bottom: clamp(24px,3.5vw,40px);" id="feat-chips" role="tablist">
+        <button class="chip is-active" role="tab" data-filter="all">الكل (16)</button>
+        <button class="chip" role="tab" data-filter="offers">عروض حصرية 🔥</button>
+        <button class="chip" role="tab" data-filter="bestseller">الأكثر مبيعاً ✨</button>
+        <button class="chip" role="tab" data-filter="kitchen">مطبخ وشواء البر 🍳</button>
+        <button class="chip" role="tab" data-filter="hunting">مقناص وسكاكين 🦅</button>
+        <button class="chip" role="tab" data-filter="camp">جلسات وخيم ⛺</button>
+        <button class="chip" role="tab" data-filter="lights">كشافات وإضاءة 💡</button>
+      </div>
+
+      <!-- Products Grid (16 Rich Products) -->
+      <div class="product-grid" id="product-grid">
+
+        <!-- 1: موقد حطب وتدفئة -->
+        <article class="pcard reveal" data-cat="kitchen" data-offers="true" data-bestseller="true" data-id="p1" data-name="موقد حطب وتدفئة ستانلس ستيل مع مدخنة" data-price="480" data-oldprice="650" data-catname="المواقد ولوازم الشواء" data-img="assets/img/products/wood-stove.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/wood-stove.webp" alt="موقد حطب وتدفئة" loading="lazy"></a>
+            <div class="pcard__badges">
+              <span class="tag tag--sale">-26%</span>
+              <span class="tag tag--best">الأكثر طلباً</span>
+            </div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">المواقد ولوازم الشواء</span>
+            <h3 class="pcard__name"><a href="#">موقد حطب وتدفئة ستانلس ستيل مع مدخنة</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">5.0</span><span>(96)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">480 <small>د.إ</small></span>
+                <s class="price__old">650 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2: خيمة مجلس ملكية -->
+        <article class="pcard reveal" data-cat="camp" data-offers="true" data-bestseller="true" data-id="p2" data-name="خيمة مجلس ملكية سريعة التركيب عازلة للماء" data-price="890" data-oldprice="1200" data-catname="جلسات وخيم المجالس" data-img="assets/img/products/majlis-tent.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/majlis-tent.webp" alt="خيمة مجلس ملكية" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--sale">-25%</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">جلسات وخيم المجالس</span>
+            <h3 class="pcard__name"><a href="#">خيمة مجلس ملكية سريعة التركيب عازلة للماء</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.9</span><span>(142)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">890 <small>د.إ</small></span>
+                <s class="price__old">1,200 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3: موقد غاز محمول مزدوج -->
+        <article class="pcard reveal" data-cat="kitchen" data-offers="true" data-id="p3" data-name="موقد غاز محمول مزدوج مع درع حماية الرياح" data-price="185" data-oldprice="260" data-catname="مطبخ البر" data-img="assets/img/products/gas-stove.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/gas-stove.webp" alt="موقد غاز محمول" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--sale">-29%</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">مطبخ البر</span>
+            <h3 class="pcard__name"><a href="#">موقد غاز محمول مزدوج مع درع حماية الرياح</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.8</span><span>(88)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">185 <small>د.إ</small></span>
+                <s class="price__old">260 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4: صاج شواء كوري -->
+        <article class="pcard reveal" data-cat="kitchen" data-bestseller="true" data-id="p4" data-name="صاج شواء كوري متعدد الاستخدامات غير لاصق" data-price="149" data-oldprice="220" data-catname="المواقد ولوازم الشواء" data-img="assets/img/products/gas-griddle.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/gas-griddle.webp" alt="صاج شواء كوري" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--best">الأعلى تقييماً</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">المواقد ولوازم الشواء</span>
+            <h3 class="pcard__name"><a href="#">صاج شواء كوري متعدد الاستخدامات غير لاصق</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.9</span><span>(210)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">149 <small>د.إ</small></span>
+                <s class="price__old">220 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5: كشاف تخييم عملاق مع حامل ثلاثي -->
+        <article class="pcard reveal" data-cat="lights" data-offers="true" data-bestseller="true" data-id="p5" data-name="كشاف تخييم عملاق LED مع ستاند ثلاثي وباوربانك" data-price="179" data-oldprice="245" data-catname="الكشافات والإضاءة" data-img="assets/img/products/tripod-light.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/tripod-light.webp" alt="كشاف تخييم عملاق" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--sale">-27%</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">الكشافات والإضاءة</span>
+            <h3 class="pcard__name"><a href="#">كشاف تخييم عملاق LED مع ستاند ثلاثي وباوربانك</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.8</span><span>(135)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">179 <small>د.إ</small></span>
+                <s class="price__old">245 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6: كرسي رحلات ألومنيوم مريح -->
+        <article class="pcard reveal" data-cat="camp" data-bestseller="true" data-id="p6" data-name="كرسي رحلات ألومنيوم مريح مبطن مع حامل أكواب" data-price="219" data-oldprice="290" data-catname="جلسات وخيم المجالس" data-img="assets/img/products/chair.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/chair.webp" alt="كرسي رحلات" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--sale">-24%</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">جلسات وخيم المجالس</span>
+            <h3 class="pcard__name"><a href="#">كرسي رحلات ألومنيوم مريح مبطن مع حامل أكواب</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.9</span><span>(240)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">219 <small>د.إ</small></span>
+                <s class="price__old">290 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7: سكين مقناص يابانية مع مسن -->
+        <article class="pcard reveal" data-cat="hunting" data-bestseller="true" data-offers="true" data-id="p7" data-name="سكين مقناص صلب دمشقي حادة مع غمد جلدي ومسن" data-price="275" data-oldprice="390" data-catname="السكاكين والمسنات" data-img="assets/img/categories/knives.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/categories/knives.webp" alt="سكين مقناص دمشقي" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--sale">-29%</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">السكاكين والمسنات</span>
+            <h3 class="pcard__name"><a href="#">سكين مقناص صلب دمشقي حادة مع غمد جلدي ومسن</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">5.0</span><span>(178)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">275 <small>د.إ</small></span>
+                <s class="price__old">390 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8: مروحة تخييم مع إضاءة ليد -->
+        <article class="pcard reveal" data-cat="lights" data-offers="true" data-id="p8" data-name="مروحة تخييم لاسلكية مع إضاءة وباوربانك 20000mAh" data-price="139" data-oldprice="195" data-catname="الكشافات والإضاءة" data-img="assets/img/products/fan-lantern.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/fan-lantern.webp" alt="مروحة تخييم ليد" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--sale">-28%</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">الكشافات والإضاءة</span>
+            <h3 class="pcard__name"><a href="#">مروحة تخييم لاسلكية مع إضاءة وباوربانك 20000mAh</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.7</span><span>(92)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">139 <small>د.إ</small></span>
+                <s class="price__old">195 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 9: حقيبة سفر تكتيكية -->
+        <article class="pcard reveal" data-cat="camp" data-id="p9" data-name="حقيبة سفر تكتيكية مقاومة للماء والتمزق 60L" data-price="195" data-oldprice="280" data-catname="لوازم السفر" data-img="assets/img/products/travel-bag.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/travel-bag.webp" alt="حقيبة سفر تكتيكية" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--sale">-30%</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">لوازم السفر</span>
+            <h3 class="pcard__name"><a href="#">حقيبة سفر تكتيكية مقاومة للماء والتمزق 60L</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.8</span><span>(115)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">195 <small>د.إ</small></span>
+                <s class="price__old">280 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 10: طاولة شبك حديد -->
+        <article class="pcard reveal" data-cat="camp" data-id="p10" data-name="طاولة شبك حديدية قابلة للطي مقاومة لحرارة الجمر" data-price="165" data-oldprice="230" data-catname="لوازم الرحلات والتخييم" data-img="assets/img/products/mesh-table.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/mesh-table.webp" alt="طاولة شبك حديد" loading="lazy"></a>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">لوازم الرحلات والتخييم</span>
+            <h3 class="pcard__name"><a href="#">طاولة شبك حديدية قابلة للطي مقاومة لحرارة الجمر</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.6</span><span>(64)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">165 <small>د.إ</small></span>
+                <s class="price__old">230 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 11: منشار حطب كهربائي لاسلكي -->
+        <article class="pcard reveal" data-cat="hunting" data-id="p11" data-name="منشار حطب وبوشكرافت كهربائي لاسلكي ببطاريتين" data-price="230" data-oldprice="320" data-catname="لوازم الصيد والمقناص" data-img="assets/img/products/chainsaw.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/chainsaw.webp" alt="منشار حطب لاسلكي" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--sale">-28%</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">لوازم الصيد والمقناص</span>
+            <h3 class="pcard__name"><a href="#">منشار حطب وبوشكرافت كهربائي لاسلكي ببطاريتين</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.9</span><span>(89)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">230 <small>د.إ</small></span>
+                <s class="price__old">320 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 12: حافظة ثلج ومشروبات تكتيكية -->
+        <article class="pcard reveal" data-cat="kitchen" data-id="p12" data-name="حافظة ثلج ومشروبات تكتيكية عازلة للحرارة 48 ساعة" data-price="159" data-oldprice="220" data-catname="مطبخ البر" data-img="assets/img/products/cooler-bag.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/cooler-bag.webp" alt="حافظة ثلج تكتيكية" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--best">مميز</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">مطبخ البر</span>
+            <h3 class="pcard__name"><a href="#">حافظة ثلج ومشروبات تكتيكية عازلة للحرارة 48 ساعة</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.8</span><span>(144)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">159 <small>د.إ</small></span>
+                <s class="price__old">220 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 13: رفوف خشبية لمطبخ البر -->
+        <article class="pcard reveal" data-cat="kitchen" data-id="p13" data-name="رفوف خشبية متدرجة قابلة للطي لمطبخ البر" data-price="189" data-oldprice="260" data-catname="مطبخ البر" data-img="assets/img/products/wood-shelf.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/wood-shelf.webp" alt="رفوف خشبية لمطبخ البر" loading="lazy"></a>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">مطبخ البر</span>
+            <h3 class="pcard__name"><a href="#">رفوف خشبية متدرجة قابلة للطي لمطبخ البر</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.7</span><span>(52)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">189 <small>د.إ</small></span>
+                <s class="price__old">260 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 14: بطانية كشتة شتوية مبطنة -->
+        <article class="pcard reveal" data-cat="camp" data-id="p14" data-name="بطانية كشتة شتوية مبطنة صوف عازلة للرطوبة" data-price="125" data-oldprice="180" data-catname="جلسات وخيم المجالس" data-img="assets/img/products/blanket.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/blanket.webp" alt="بطانية كشتة شتوية" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--sale">-30%</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">جلسات وخيم المجالس</span>
+            <h3 class="pcard__name"><a href="#">بطانية كشتة شتوية مبطنة صوف عازلة للرطوبة</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.9</span><span>(165)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">125 <small>د.إ</small></span>
+                <s class="price__old">180 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 15: صندوق تخزين تكتيكي مقاوم للصدمات -->
+        <article class="pcard reveal" data-cat="camp" data-id="p15" data-name="صندوق تخزين وتنظيم تكتيكي مقاوم للكسر والماء" data-price="110" data-oldprice="155" data-catname="لوازم الرحلات والتخييم" data-img="assets/img/products/storage-box.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/products/storage-box.webp" alt="صندوق تخزين تكتيكي" loading="lazy"></a>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">لوازم الرحلات والتخييم</span>
+            <h3 class="pcard__name"><a href="#">صندوق تخزين وتنظيم تكتيكي مقاوم للكسر والماء</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.8</span><span>(77)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">110 <small>د.إ</small></span>
+                <s class="price__old">155 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 16: عصا مشي تكتيكية -->
+        <article class="pcard reveal" data-cat="hunting" data-offers="true" data-id="p16" data-name="عصا مشي تكتيكية متعددة الاستخدامات مع بوصلة" data-price="145" data-oldprice="210" data-catname="العصي" data-img="assets/img/categories/canes.webp">
+          <div class="pcard__media">
+            <a href="#"><img src="assets/img/categories/canes.webp" alt="عصا مشي تكتيكية" loading="lazy"></a>
+            <div class="pcard__badges"><span class="tag tag--sale">-31%</span></div>
+            <button class="wish" aria-pressed="false" aria-label="أضف للمفضلة" data-wish><svg class="icon"><use href="#i-heart"/></svg></button>
+            <button class="pcard__quick" data-quickview aria-label="عرض سريع"><svg class="icon"><use href="#i-search"/></svg>عرض سريع</button>
+          </div>
+          <div class="pcard__body">
+            <span class="pcard__cat">العصي</span>
+            <h3 class="pcard__name"><a href="#">عصا مشي تكتيكية متعددة الاستخدامات مع بوصلة</a></h3>
+            <div class="rating">
+              <div class="stars"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+              <span class="rating__value">4.7</span><span>(49)</span>
+            </div>
+            <div class="pcard__foot">
+              <div class="price">
+                <span class="price__now">145 <small>د.إ</small></span>
+                <s class="price__old">210 د.إ</s>
+              </div>
+              <button class="add-btn" data-add aria-label="أضف للسلة"><svg class="icon i-default"><use href="#i-plus"/></svg><svg class="icon i-check"><use href="#i-check"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       Categories Grid (All 12 Requested Categories)
+       ══════════════════════════════════════════ -->
+  <section class="section" id="categories" aria-labelledby="cat-title">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow reveal">جميع تصنيفات المتجر</p>
+          <h2 class="section-title reveal" id="cat-title">استكشف عالمك الخارجي بكافة تفاصيله</h2>
+          <p class="section-sub reveal" style="--d:.08s">12 قسماً شاملاً يغطي كافة متطلبات الكشتة، المقناص، والرحلات البرية</p>
+        </div>
+      </div>
+
+      <ul class="cat-grid" role="list">
+        <!-- 1 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/products/chair.webp" alt="لوازم الرحلات و التخييم" loading="lazy"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">لوازم الرحلات و التخييم</h3>
+              <span class="cat-card__count">+85 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+        <!-- 2 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/products/gas-stove.webp" alt="المواقد و لوازم الشواء" loading="lazy"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">المواقد و لوازم الشواء</h3>
+              <span class="cat-card__count">+42 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+        <!-- 3 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/products/grill-pan.webp" alt="مطبخ البر" loading="lazy"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">مطبخ البر</h3>
+              <span class="cat-card__count">+36 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+        <!-- 4 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/products/travel-bag.webp" alt="لوازم السفر" loading="lazy"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">لوازم السفر</h3>
+              <span class="cat-card__count">+28 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+        <!-- 5 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/categories/knives.webp" alt="السكاكين و المسنات" loading="lazy"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">السكاكين و المسنات</h3>
+              <span class="cat-card__count">+54 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+        <!-- 6 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/products/tripod-light.webp" alt="الكشافات و الإضاءة" loading="lazy" class="is-tall"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">الكشافات و الإضاءة</h3>
+              <span class="cat-card__count">+31 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+        <!-- 7 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/categories/car-gear.webp" alt="معدات السيارات" loading="lazy"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">معدات السيارات</h3>
+              <span class="cat-card__count">+22 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+        <!-- 8 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/categories/hunting.webp" alt="لوازم الصيد والمقناص" loading="lazy"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">لوازم الصيد والمقناص</h3>
+              <span class="cat-card__count">+18 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+        <!-- 9 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/categories/canes.webp" alt="العصي" loading="lazy" class="is-tall"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">العصي</h3>
+              <span class="cat-card__count">+14 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+        <!-- 10 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/categories/accessories.webp" alt="ساعات - كابات - نظارات" loading="lazy"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">ساعات - كابات - نظارات</h3>
+              <span class="cat-card__count">+27 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+        <!-- 11 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/products/majlis-tent.webp" alt="جلسات و خيم المجالس" loading="lazy"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">جلسات و خيم المجالس</h3>
+              <span class="cat-card__count">+19 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+        <!-- 12 -->
+        <li class="reveal">
+          <a href="#products-tabs" class="cat-card">
+            <div class="cat-card__media"><img src="assets/img/categories/games.webp" alt="ألعاب" loading="lazy"></div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">العاب</h3>
+              <span class="cat-card__count">+11 منتج</span>
+            </div>
+            <span class="cat-card__go" aria-hidden="true"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       Curated Collections Showcase
+       ══════════════════════════════════════════ -->
+  <section class="section" id="collections" style="background:#fff;">
+    <div class="container">
+      <div class="collections">
+
+        <!-- Collection 1: مطبخ البر والشواء -->
+        <article class="collection collection--a">
+          <div class="collection__media">
+            <img src="assets/img/lifestyle/kitchen.webp" alt="مطبخ البر والشواء" loading="lazy">
+          </div>
+          <div class="collection__body">
+            <span class="collection__index">01</span>
+            <p class="eyebrow">كولكشن مميز</p>
+            <h2 class="collection__title">مطبخ البر والشواء الاحترافي</h2>
+            <p class="collection__text">
+              حوّل كشتتك إلى تجربة طهي ملكية. صاجات كورية، مواقد غاز بحماية الرياح، وأواني جرانيت مقاومة للحرارة العالية.
+            </p>
+            <div class="collection__thumbs">
+              <a href="#products-tabs" class="mini">
+                <span class="mini__img"><img src="assets/img/products/gas-stove.webp" alt=""></span>
+                <div>
+                  <span class="mini__name">موقد غاز محمول</span>
+                  <span class="mini__price">185 د.إ</span>
+                </div>
+              </a>
+              <a href="#products-tabs" class="mini">
+                <span class="mini__img"><img src="assets/img/products/gas-griddle.webp" alt=""></span>
+                <div>
+                  <span class="mini__name">صاج شواء كوري</span>
+                  <span class="mini__price">149 د.إ</span>
+                </div>
+              </a>
+            </div>
+            <a href="#products-tabs" class="btn btn--primary">
+              تصفح معدات الطبخ
+              <svg class="icon"><use href="#i-arrow-left"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Collection 2: جلسات وخيم المجالس الملكية -->
+        <article class="collection collection--b">
+          <div class="collection__body">
+            <span class="collection__index">02</span>
+            <p class="eyebrow">راحة وفخامة</p>
+            <h2 class="collection__title">جلسات وخيم المجالس الملكية</h2>
+            <p class="collection__text">
+              خيم مجالس تتسع للعائلة والأصدقاء، مصنوعة من أقمشة قطنية عازلة للأمطار مع كراسي ألومنيوم مبطنة لتستمتع بليالي البر بأقصى راحة.
+            </p>
+            <ul class="collection__features">
+              <li><svg class="icon"><use href="#i-check"/></svg> أقمشة عازلة للماء ومقاومة للرياح العاتية</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> سهولة تركيب وتفكيك خلال 5 دقائق فقط</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> كراسي مريحة تتحمل أوزان حتى 160 كجم</li>
+            </ul>
+            <a href="#products-tabs" class="btn btn--primary">
+              تصفح الخيم والجلسات
+              <svg class="icon"><use href="#i-arrow-left"/></svg>
+            </a>
+          </div>
+          <div class="collection__media">
+            <img src="assets/img/lifestyle/majlis.webp" alt="جلسات وخيم المجالس" loading="lazy">
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       Shop The Scene (Interactive Hotspots)
+       ══════════════════════════════════════════ -->
+  <section class="section scene" id="scene" aria-labelledby="scene-title">
+    <div class="container">
+      <div class="scene__grid">
+        <div class="scene__head">
+          <p class="eyebrow reveal">مظهر الكشتة المتكامل</p>
+          <h2 class="section-title reveal" id="scene-title">جهّز جلستك بضغطة زر</h2>
+          <p class="section-sub reveal" style="--d:.08s">اضغط على النقاط التفاعلية لاكتشاف تفاصيل كل منتج وإضافته مباشرة لسلتك</p>
+        </div>
+
+        <div class="scene__side">
+          <div class="scene__list">
+            <button class="scene-item is-active" data-idx="0">
+              <span class="scene-item__num">1</span>
+              <span class="scene-item__thumb"><img src="assets/img/products/chair.webp" alt=""></span>
+              <div class="scene-item__info">
+                <span class="scene-item__name">كرسي رحلات الحر مبطن</span>
+                <span class="scene-item__price">219 د.إ</span>
+              </div>
+              <svg class="icon"><use href="#i-arrow-left"/></svg>
+            </button>
+
+            <button class="scene-item" data-idx="1">
+              <span class="scene-item__num">2</span>
+              <span class="scene-item__thumb"><img src="assets/img/products/mesh-table.webp" alt=""></span>
+              <div class="scene-item__info">
+                <span class="scene-item__name">طاولة شبك حديدية مقاومة للجمر</span>
+                <span class="scene-item__price">165 د.إ</span>
+              </div>
+              <svg class="icon"><use href="#i-arrow-left"/></svg>
+            </button>
+
+            <button class="scene-item" data-idx="2">
+              <span class="scene-item__num">3</span>
+              <span class="scene-item__thumb"><img src="assets/img/products/tripod-light.webp" alt=""></span>
+              <div class="scene-item__info">
+                <span class="scene-item__name">كشاف تخييم عملاق مع حامل ثلاثي</span>
+                <span class="scene-item__price">179 د.إ</span>
+              </div>
+              <svg class="icon"><use href="#i-arrow-left"/></svg>
+            </button>
+
+            <button class="scene-item" data-idx="3">
+              <span class="scene-item__num">4</span>
+              <span class="scene-item__thumb"><img src="assets/img/products/storage-box.webp" alt=""></span>
+              <div class="scene-item__info">
+                <span class="scene-item__name">صندوق تنظيم وتخزين تكتيكي</span>
+                <span class="scene-item__price">110 د.إ</span>
+              </div>
+              <svg class="icon"><use href="#i-arrow-left"/></svg>
+            </button>
+          </div>
+
+          <div class="scene__total">
+            <div>
+              <span>مجموع كامل عناصر الجلسة</span>
+              <strong>673 <small>د.إ</small></strong>
+            </div>
+            <button class="btn btn--primary" id="btn-add-all-scene" onclick="alert('تمت إضافة جميع عناصر الجلسة إلى سلتك بنجاح! 🎉');">
+              أضف كامل الجلسة للسلة
+            </button>
+          </div>
+        </div>
+
+        <div class="scene__stage">
+          <div class="scene__frame" id="scene-frame">
+            <img src="assets/img/lifestyle/scene.webp" alt="مظهر الكشتة المتكامل" loading="lazy">
+            <span class="scene__chip"><span class="dot"></span>انقر على النقاط البيضاء للتسوق</span>
+
+            <!-- Hotspots -->
+            <button class="spot is-active" style="top:58%; left:36%;" aria-label="كرسي رحلات" data-idx="0">
+              <span class="spot__label">كرسي رحلات الحر (219 د.إ)</span>
+            </button>
+            <button class="spot" style="top:74%; left:56%;" aria-label="طاولة شبك" data-idx="1">
+              <span class="spot__label">طاولة شبك حديد (165 د.إ)</span>
+            </button>
+            <button class="spot" style="top:32%; left:72%;" aria-label="كشاف تخييم عملاق" data-idx="2">
+              <span class="spot__label">كشاف ثلاثي LED (179 د.إ)</span>
+            </button>
+            <button class="spot" style="top:80%; left:22%;" aria-label="صندوق تخزين" data-idx="3">
+              <span class="spot__label">صندوق تكتيكي (110 د.إ)</span>
+            </button>
+
+            <!-- Popup -->
+            <div class="scene__pop is-visible" id="scene-pop">
+              <button class="pop__close" aria-label="إغلاق"><svg class="icon"><use href="#i-x"/></svg></button>
+              <div class="pop__row">
+                <div class="pop__thumb"><img id="pop-img" src="assets/img/products/chair.webp" alt=""></div>
+                <div>
+                  <span class="pop__cat" id="pop-cat">جلسات وخيم المجالس</span>
+                  <h4 class="pop__name" id="pop-name">كرسي رحلات الحر مبطن</h4>
+                  <div class="price"><span class="price__now" id="pop-price">219 د.إ</span></div>
+                </div>
+              </div>
+              <div class="pop__actions">
+                <button class="btn btn--primary" id="pop-add" data-add>أضف للسلة</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- ══════════════════════════════════════════
+       Value Bundles Showcase (Save Big)
+       ══════════════════════════════════════════ -->
+  <section class="section" id="bundles" style="background:#fff;">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow reveal">بكجات التوفير الشاملة</p>
+          <h2 class="section-title reveal">أطقم متكاملة بأفضل توفير</h2>
+          <p class="section-sub reveal">اشترِ البكج ووفر حتى 25% مقارنة بشراء كل قطعة على حدة</p>
+        </div>
+      </div>
+
+      <div class="bundle-grid">
+        <!-- Bundle 1 -->
+        <div class="bundle-card">
+          <span class="bundle-badge">وفر 180 د.إ</span>
+          <div class="bundle-header">
+            <h3 class="bundle-title">بكج شواء وطبخ البر الملكي</h3>
+            <span class="bundle-savings">خصم مجمع 22%</span>
+          </div>
+          <div class="bundle-items">
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>موقد غاز محمول مزدوج مع درع الرياح</span></div>
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>صاج شواء كوري متعدد الاستخدامات</span></div>
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>حافظة ثلج تكتيكية 48 ساعة</span></div>
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>مروحة تخييم مع إضاءة وباوربانك</span></div>
+          </div>
+          <div class="bundle-price-row">
+            <div class="price">
+              <span class="price__now">499 <small>د.إ</small></span>
+              <s class="price__old">679 د.إ</s>
+            </div>
+            <button class="btn btn--primary" data-add data-id="bundle1" data-name="بكج شواء وطبخ البر الملكي" data-price="499" data-img="assets/img/products/gas-stove.webp">أضف البكج للسلة</button>
+          </div>
+        </div>
+
+        <!-- Bundle 2 (Featured) -->
+        <div class="bundle-card is-featured">
+          <span class="bundle-badge" style="background:var(--accent-red)">الأكثر طلباً — وفر 420 د.إ</span>
+          <div class="bundle-header">
+            <h3 class="bundle-title">بكج الكشتة المتكاملة الفاخرة</h3>
+            <span class="bundle-savings">خصم مجمع 28%</span>
+          </div>
+          <div class="bundle-items">
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>خيمة مجلس ملكية سريعة التركيب</span></div>
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>كرسيين رحلات ألومنيوم مبطن مريح</span></div>
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>طاولة شبك حديدية مقاومة للجمر</span></div>
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>كشاف تخييم عملاق مع حامل ثلاثي</span></div>
+          </div>
+          <div class="bundle-price-row">
+            <div class="price">
+              <span class="price__now" style="font-size:22px;">1,299 <small>د.إ</small></span>
+              <s class="price__old">1,719 د.إ</s>
+            </div>
+            <button class="btn btn--primary" data-add data-id="bundle2" data-name="بكج الكشتة المتكاملة الفاخرة" data-price="1299" data-img="assets/img/products/majlis-tent.webp">أضف البكج للسلة</button>
+          </div>
+        </div>
+
+        <!-- Bundle 3 -->
+        <div class="bundle-card">
+          <span class="bundle-badge">وفر 150 د.إ</span>
+          <div class="bundle-header">
+            <h3 class="bundle-title">بكج المقناص والصيد والمغامرة</h3>
+            <span class="bundle-savings">خصم مجمع 20%</span>
+          </div>
+          <div class="bundle-items">
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>سكين صيد دمشقي مع مسن وغمد جلدي</span></div>
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>عصا مشي تكتيكية مع بوصلة ومطواة</span></div>
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>منشار حطب كهربائي لاسلكي ببطاريتين</span></div>
+            <div class="bundle-item-row"><svg class="icon"><use href="#i-check"/></svg><span>حقيبة سفر تكتيكية مقاومة للماء</span></div>
+          </div>
+          <div class="bundle-price-row">
+            <div class="price">
+              <span class="price__now">645 <small>د.إ</small></span>
+              <s class="price__old">795 د.إ</s>
+            </div>
+            <button class="btn btn--primary" data-add data-id="bundle3" data-name="بكج المقناص والصيد والمغامرة" data-price="645" data-img="assets/img/categories/knives.webp">أضف البكج للسلة</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       Brand Story (Heritage & Falconry)
+       ══════════════════════════════════════════ -->
+  <section class="section" id="story" style="background:var(--sand);">
+    <div class="container">
+      <div class="story__grid">
+        <div class="story__media">
+          <img src="assets/img/lifestyle/brand-story.webp" alt="قصة علامة الحر — الصقار والبر" loading="lazy">
+          <div class="story__badge">
+            <img src="assets/img/brand/emblem.png" alt="شعار الحر">
+            <div>
+              <strong>علامة تجارية إماراتية</strong>
+              <span>مختبرة في أقصى ظروف البر</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="eyebrow">أصالة وتاريخ</p>
+          <h2 class="story__title">عن الحر — شغف الصحراء وروح المقناص</h2>
+          <p class="story__text">
+            انطلقت "الحر" من قلب الجزيرة العربية تخليداً لروح الصقار وأصالة الكشتات. ننتقي أدق المعدات وأمتن المواد من أفضل مصانع العالم لتكون رفيق دربك في كل رحلة صيد، مقناص، وتخييم.
+          </p>
+          <ul class="story__values">
+            <li>فولاذ أصلي دمشقي وياباني</li>
+            <li>أقمشة خيام مضادة للمطر والحرارة</li>
+            <li>اختبار ميداني قبل الطرح</li>
+            <li>ضمان ذهبي واستبدال فوري</li>
+          </ul>
+          <a href="#products-tabs" class="btn btn--primary btn--lg">
+            تصفح منتجاتنا
+            <svg class="icon"><use href="#i-arrow-left"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       Customer Trust Badges & Verified Reviews
+       ══════════════════════════════════════════ -->
+  <section class="section" style="background:#fff;">
+    <div class="container">
+      <div class="section-head text-center" style="justify-content:center; text-align:center;">
+        <div>
+          <p class="eyebrow" style="justify-content:center;">آراء عملائنا في الإمارات</p>
+          <h2 class="section-title">ثقة نعتز بها من عشاق البر والمقناص</h2>
+          <p class="section-sub" style="margin: 0 auto;">تقييم 4.9 من 5 بناءً على أكثر من 3,800 طلب تم تسليمه</p>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:24px;">
+        <!-- Review 1 -->
+        <div style="background:var(--sand); padding:24px; border-radius:var(--r); border:1px solid var(--line);">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <div class="stars" style="color:var(--gold);"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+            <span style="font-size:12px; color:var(--accent-green); font-weight:700;">✓ مشتري موثق</span>
+          </div>
+          <p style="font-size:14.5px; line-height:1.7; color:var(--ink-2); margin-bottom:16px;">
+            "طلبت موقد الحطب وخيمة المجلس لكشتة الدهناء، صراحة خامة وجودة فاقت التوقعات! تدفئة جبارة وسرعة خرافية في الشحن وصلتني الرياض بيومين."
+          </p>
+          <div style="display:flex; align-items:center; gap:10px;">
+            <strong style="font-size:14.5px;">عبدالله التميمي</strong>
+            <span style="font-size:12.5px; color:var(--muted);">— الرياض</span>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div style="background:var(--sand); padding:24px; border-radius:var(--r); border:1px solid var(--line);">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <div class="stars" style="color:var(--gold);"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+            <span style="font-size:12px; color:var(--accent-green); font-weight:700;">✓ مشتري موثق</span>
+          </div>
+          <p style="font-size:14.5px; line-height:1.7; color:var(--ink-2); margin-bottom:16px;">
+            "السكين الدمشقي حادة بشكل لا يوصف، والمسن ممتاز جداً. أيضاً كشاف الثلاثي نور لي كامل المخيم كأنه نهار. متجر أعتمد عليه بكل طلعاتي."
+          </p>
+          <div style="display:flex; align-items:center; gap:10px;">
+            <strong style="font-size:14.5px;">فهد الشمري</strong>
+            <span style="font-size:12.5px; color:var(--muted);">— حائل</span>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div style="background:var(--sand); padding:24px; border-radius:var(--r); border:1px solid var(--line);">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <div class="stars" style="color:var(--gold);"><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg><svg class="icon icon--fill"><use href="#i-star"/></svg></div>
+            <span style="font-size:12px; color:var(--accent-green); font-weight:700;">✓ مشتري موثق</span>
+          </div>
+          <p style="font-size:14.5px; line-height:1.7; color:var(--ink-2); margin-bottom:16px;">
+            "أفضل تجربة تسوق إلكتروني لمعدات التخييم، التعامل راقي جداً وخدمة العملاء متعاونين، حتى لما استفسرت عن مقاس الصاج الكوري ردوا علي بالواتساب فوراً."
+          </p>
+          <div style="display:flex; align-items:center; gap:10px;">
+            <strong style="font-size:14.5px;">سعود الدوسري</strong>
+            <span style="font-size:12.5px; color:var(--muted);">— القصيم</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       Benefits / Guarantees Bar
+       ══════════════════════════════════════════ -->
+  <section class="benefits">
+    <div class="container">
+      <div class="benefits__list">
+        <div class="benefit">
+          <div class="benefit__icon"><svg class="icon"><use href="#i-truck"/></svg></div>
+          <div>
+            <h3>شحن سريع ومجاني</h3>
+            <p>لكافة مناطق الإمارات فوق 300 د.إ</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit__icon"><svg class="icon"><use href="#i-shield"/></svg></div>
+          <div>
+            <h3>ضمان ذهبي سنتين</h3>
+            <p>استبدال وصيانة فورية مجاناً</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit__icon"><svg class="icon"><use href="#i-gift"/></svg></div>
+          <div>
+            <h3>دفع آمن وأقساط</h3>
+            <p>تمارا وتابي، مدى، فيزا، Apple Pay</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit__icon"><svg class="icon"><use href="#i-headphones"/></svg></div>
+          <div>
+            <h3>دعم فني واستشارات</h3>
+            <p>خبراء كشتات ومقناص على مدار الساعة</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       Newsletter
+       ══════════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <div class="newsletter__box">
+        <svg class="newsletter__dunes" viewBox="0 0 1200 400" preserveAspectRatio="none"><path d="M0,200 C300,100 500,320 800,180 C1000,80 1100,240 1200,200 L1200,400 L0,400 Z" fill="currentColor"/></svg>
+        <img class="newsletter__mark" src="assets/img/brand/emblem.png" alt="شعار الحر">
+        <h2>انضم إلى نادي صقور الحر</h2>
+        <p class="newsletter__desc">احصل على كود خصم 15% فور اشتراكك، وكن أول من يعلم بوصول أحدث معدات التخييم والمقناص.</p>
+        <form class="news-form" id="news-form">
+          <input type="email" id="news-email" placeholder="أدخل بريدك الإلكتروني" required>
+          <button type="submit" class="btn btn--primary">اشتراك الآن</button>
+        </form>
+        <p class="news-note" id="news-note"></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ══════════════════════════════════════════
+     Footer (Complete & Luxurious)
+     ══════════════════════════════════════════ -->
+<footer class="footer" id="footer-contact">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="/"><img src="assets/img/brand/logo-horizontal.webp" alt="الحر"></a>
+      <p>علامة إماراتية متخصصة في مستلزمات الصيد والمقناص، خيم ومجالس البر، ومعدات التخييم الاحترافية بأعلى معايير الجودة والمتانة.</p>
+      <div class="socials">
+        <a href="#" aria-label="تويتر (إكس)"><svg class="icon"><use href="#i-x-social"/></svg></a>
+        <a href="#" aria-label="انستغرام"><svg class="icon"><use href="#i-instagram"/></svg></a>
+        <a href="#" aria-label="سناب شات"><svg class="icon"><use href="#i-snapchat"/></svg></a>
+        <a href="#" aria-label="تيك توك"><svg class="icon"><use href="#i-tiktok"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <summary>أقسام المتجر</summary>
+      <ul>
+        <li><a href="#categories">لوازم الرحلات و التخييم</a></li>
+        <li><a href="#categories">المواقد و لوازم الشواء</a></li>
+        <li><a href="#categories">مطبخ البر</a></li>
+        <li><a href="#categories">السكاكين و المسنات</a></li>
+        <li><a href="#categories">الكشافات و الإضاءة</a></li>
+        <li><a href="#categories">جلسات و خيم المجالس</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <summary>روابط مهمة</summary>
+      <ul>
+        <li><a href="#flash-deals">العروض الحصرية</a></li>
+        <li><a href="#products-tabs">الأكثر مبيعاً</a></li>
+        <li><a href="#bundles">بكجات التوفير</a></li>
+        <li><a href="#story">عن علامة الحر</a></li>
+        <li><a href="#">سياسة الضمان والاسترجاع</a></li>
+        <li><a href="#">الشحن والتوصيل</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <summary>خدمة العملاء</summary>
+      <p style="color:var(--muted); font-size:14px; margin-bottom:12px;">يسعدنا تواصلكم للإجابة عن أي استفسار أو طلب استشارة خاصة بمعدات البر:</p>
+      <div class="footer__contact">
+        <a href="https://wa.me/966500000000" target="_blank" rel="noopener">
+          <svg class="icon"><use href="#i-headphones"/></svg>
+          واتساب: 966500000000+
+        </a>
+      </div>
+      <p style="color:var(--muted); font-size:12.5px; margin-top:12px;">ساعات العمل: 9:00 ص – 11:00 م (يومياً)</p>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <p>© 2026 متجر الحر لمستلزمات الصيد والرحلات. جميع الحقوق محفوظة.</p>
+    <ul class="pay">
+      <li>مدى Mada</li>
+      <li>Apple Pay</li>
+      <li>Visa</li>
+      <li>Mastercard</li>
+      <li>تمارا Tamara</li>
+      <li>تابي Tabby</li>
+    </ul>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════════
+     Floating WhatsApp Button
+     ══════════════════════════════════════════ -->
+<a href="https://wa.me/966500000000" class="wa-float" target="_blank" rel="noopener" aria-label="محادثة واتساب">
+  <div class="wa-float__pulse"></div>
+  <svg class="wa-float__icon" viewBox="0 0 24 24">
+    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+  </svg>
+  <span>تحدث مع خبير كشتات</span>
+</a>
+
+<!-- ══════════════════════════════════════════
+     Mobile Bottom Navigation Bar
+     ══════════════════════════════════════════ -->
+<nav class="bottom-nav" aria-label="التنقل السفلي للجوال">
+  <a href="#" class="bottom-nav__item is-active">
+    <svg class="icon"><use href="#i-home"/></svg>
+    <span>الرئيسية</span>
+  </a>
+  <button class="bottom-nav__item" id="bn-cats">
+    <svg class="icon"><use href="#i-grid"/></svg>
+    <span>الأقسام</span>
+  </button>
+  <a href="#flash-deals" class="bottom-nav__item bottom-nav__item--main">
+    <div class="bottom-nav__fab"><svg class="icon"><use href="#i-gift"/></svg></div>
+    <span>العروض</span>
+  </a>
+  <button class="bottom-nav__item" id="bn-search">
+    <svg class="icon"><use href="#i-search"/></svg>
+    <span>بحث</span>
+  </button>
+  <button class="bottom-nav__item" id="bn-cart">
+    <svg class="icon"><use href="#i-bag"/></svg>
+    <span class="badge" data-empty="true">0</span>
+    <span>السلة</span>
+  </button>
+</nav>
+
+<!-- ══════════════════════════════════════════
+     Modals: Backdrop, Quick View, Cart Drawer, Search
+     ══════════════════════════════════════════ -->
+<div class="backdrop" id="backdrop"></div>
+
+<!-- Quick View Modal (Selia Theme Style) -->
+<div class="modal-quickview" id="quickview-modal" role="dialog" aria-label="معاينة المنتج">
+  <div class="modal-quickview__backdrop" id="quickview-backdrop"></div>
+  <div class="modal-quickview__box">
+    <button class="modal-quickview__close" id="quickview-close" aria-label="إغلاق"><svg class="icon"><use href="#i-x"/></svg></button>
+    <div class="modal-quickview__gallery">
+      <img id="quickview-img" src="assets/img/products/wood-stove.webp" alt="معاينة">
+    </div>
+    <div class="modal-quickview__details">
+      <span class="tag tag--sale" style="width:fit-content; margin-bottom:8px;">عروض مميزة 🔥</span>
+      <span id="quickview-cat" style="font-size:12px; color:var(--muted); font-weight:600;">مستلزمات البر</span>
+      <h3 class="modal-quickview__title" id="quickview-title">عنوان المنتج</h3>
+      <div class="price" style="margin-bottom:12px;">
+        <span class="price__now" id="quickview-price" style="font-size:24px;">0 د.إ</span>
+        <s class="price__old" id="quickview-oldprice" style="font-size:15px; margin-inline-start:8px;"></s>
+      </div>
+      <p class="modal-quickview__desc">منتج أصلي مختبر في البر والصحراء، مصنع من خامات عالية المقاومة ومصمم ليدوم طويلاً مع ضمان سنتين.</p>
+      
+      <div style="margin-top:auto; display:flex; gap:12px;">
+        <button class="btn btn--primary btn--lg btn--block" id="quickview-add">
+          أضف للسلة الآن
+          <span class="btn__orb"><svg class="icon"><use href="#i-bag"/></svg></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Search Panel -->
+<div class="search" id="search-panel" role="dialog" aria-label="البحث">
+  <div class="container">
+    <div class="search__top">
+      <img src="assets/img/brand/logo-horizontal.webp" alt="الحر">
+      <button class="icon-btn" id="search-close" aria-label="إغلاق البحث"><svg class="icon"><use href="#i-x"/></svg></button>
+    </div>
+    <form class="search__form" onsubmit="event.preventDefault()">
+      <svg class="icon"><use href="#i-search"/></svg>
+      <input type="search" id="search-input" placeholder="ابحث عن: خيمة، موقد، سكين، كشاف..." autocomplete="off">
+    </form>
+    <p class="search__label" id="search-label">عمليات بحث شائعة</p>
+    <div class="search__tags" id="search-popular">
+      <button class="chip" data-q="خيمة">خيمة مجلس</button>
+      <button class="chip" data-q="موقد">موقد حطب</button>
+      <button class="chip" data-q="سكين">سكين مقناص</button>
+      <button class="chip" data-q="كشاف">كشاف تخييم</button>
+      <button class="chip" data-q="كرسي">كرسي رحلات</button>
+      <button class="chip" data-q="صاج">صاج شواء</button>
+    </div>
+    <div class="search__results" id="search-results"></div>
+  </div>
+</div>
+
+<!-- Cart Drawer (with Coupon & Free Shipping Progress) -->
+<aside class="drawer is-empty" id="drawer" role="dialog" aria-label="سلة التسوق">
+  <div class="drawer__head">
+    <h2>سلة التسوق <span id="drawer-count">(0)</span></h2>
+    <button class="icon-btn" id="drawer-close" aria-label="إغلاق السلة"><svg class="icon"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="drawer__ship" id="drawer-ship">
+    أضف منتجات بقيمة <strong id="ship-remain">300 د.إ</strong> للحصول على شحن مجاني
+    <div class="ship-bar"><span id="ship-bar"></span></div>
+  </div>
+
+  <div class="drawer__items" id="drawer-items"></div>
+
+  <div class="drawer__empty">
+    <img src="assets/img/brand/emblem.png" alt="" width="72" height="72">
+    <h3>سلتك فارغة حالياً</h3>
+    <p>أضف معداتك لبدء تجهيز مغامرتك القادمة</p>
+    <button class="btn btn--primary" id="drawer-shop">تسوق العروض الآن</button>
+  </div>
+
+  <div class="drawer__foot">
+    <!-- Coupon code box -->
+    <div style="margin-bottom:14px; padding-bottom:14px; border-bottom:1px solid var(--line);">
+      <div style="display:flex; gap:8px;">
+        <input type="text" id="coupon-input" placeholder="كود الخصم (مثال: ALHOR15)" style="flex:1; padding:8px 12px; border:1px solid var(--line-2); border-radius:var(--r-sm); font-size:13px; text-transform:uppercase;">
+        <button class="btn btn--primary btn--sm" id="coupon-btn" style="height:auto;">تطبيق</button>
+      </div>
+      <p id="coupon-msg" style="font-size:12px; margin-top:6px; min-height:16px;"></p>
+    </div>
+
+    <!-- Discount row -->
+    <div id="drawer-discount-row" style="display:none; justify-content:space-between; font-size:13.5px; color:var(--accent-green); font-weight:700; margin-bottom:8px;">
+      <span>خصم الكوبون (15%)</span>
+      <span id="drawer-discount-val">- 0 د.إ</span>
+    </div>
+
+    <div class="drawer__sum">
+      <span>الإجمالي شامل الضريبة</span>
+      <strong id="drawer-total">0 د.إ</strong>
+    </div>
+    <p class="drawer__note">الشحن السريع والاستبدال مجاني للطلبات فوق 300 د.إ</p>
+    <a href="#" class="btn btn--primary btn--block btn--lg" onclick="alert('جاري الانتقال لبوابة الدفع الآمنة (مدى / Apple Pay / تمارا / تابي)...');">
+      إتمام الطلب بأمان
+    </a>
+    <button class="btn btn--text" id="drawer-continue">← متابعة التسوق</button>
+  </div>
+</aside>
+
+<!-- ══════════════════════════════════════════
+     Modern Luxury Mobile Sidebar Navigation (Off-Canvas)
+     ══════════════════════════════════════════ -->
+<aside class="mobile-sidebar" id="mobile-sidebar" role="dialog" aria-label="القائمة الرئيسية للمتجر">
+  <!-- Sidebar Header -->
+  <div class="sidebar__head">
+    <a href="/" class="sidebar__logo" aria-label="الحر — الرئيسية">
+      <img src="assets/img/brand/logo-horizontal.webp" alt="ALHOR — الحر" width="130" height="42">
+    </a>
+    <button class="sidebar__close" id="sidebar-close" aria-label="إغلاق القائمة">
+      <svg class="icon"><use href="#i-x"/></svg>
+    </button>
+  </div>
+
+  <!-- VIP Guarantee / Trust Badge -->
+  <div class="sidebar__trust">
+    <span class="sidebar__trust-dot" aria-hidden="true"></span>
+    <span>متجر معتمد • شحن سريع لكافة دول الخليج العربي 🚚</span>
+  </div>
+
+  <!-- Quick Search Trigger -->
+  <div class="sidebar__search-wrap">
+    <button type="button" class="sidebar__search-trigger" id="sidebar-search-btn" aria-label="البحث السريع">
+      <svg class="icon"><use href="#i-search"/></svg>
+      <span>ابحث عن خيمة، موقد، سكين، كشاف...</span>
+    </button>
+  </div>
+
+  <!-- Scrollable Body -->
+  <div class="sidebar__body">
+    <!-- Primary Highlight Cards -->
+    <div class="sidebar__section">
+      <div class="sidebar__quick-links">
+        <a href="#flash-deals" class="sidebar__quick-card sidebar__quick-card--deals">
+          <span class="sidebar__quick-icon">🔥</span>
+          <div class="sidebar__quick-info">
+            <strong>عروض البر الكبرى</strong>
+            <small>خصومات حصرية حتى 45%</small>
+          </div>
+          <span class="sidebar__quick-arrow"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+        </a>
+        <a href="#bundles" class="sidebar__quick-card sidebar__quick-card--bundles">
+          <span class="sidebar__quick-icon">🎁</span>
+          <div class="sidebar__quick-info">
+            <strong>بكجات التوفير</strong>
+            <small>أطقم كشتة ومقناص متكاملة</small>
+          </div>
+          <span class="sidebar__quick-arrow"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 12 Categories List with Rich Visuals -->
+    <div class="sidebar__section">
+      <div class="sidebar__section-title">
+        <span>أقسام وتصنيفات المتجر</span>
+        <span class="sidebar__count">12 قسم</span>
+      </div>
+      <nav class="sidebar__nav-list" aria-label="تصنيفات المتجر">
+        <!-- 1 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="camp">
+          <span class="sidebar__item-icon">🏕️</span>
+          <span class="sidebar__item-name">لوازم الرحلات والتخييم</span>
+          <span class="sidebar__item-badge sidebar__item-badge--hot">الأكثر طلباً</span>
+          <span class="sidebar__item-count">+85</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+        <!-- 2 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="kitchen">
+          <span class="sidebar__item-icon">🔥</span>
+          <span class="sidebar__item-name">المواقد ولوازم الشواء</span>
+          <span class="sidebar__item-badge sidebar__item-badge--sale">خصم 30%</span>
+          <span class="sidebar__item-count">+42</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+        <!-- 3 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="kitchen">
+          <span class="sidebar__item-icon">🍳</span>
+          <span class="sidebar__item-name">مطبخ البر</span>
+          <span class="sidebar__item-count">+36</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+        <!-- 4 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="camp">
+          <span class="sidebar__item-icon">🧳</span>
+          <span class="sidebar__item-name">لوازم وحقائب السفر</span>
+          <span class="sidebar__item-count">+28</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+        <!-- 5 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="hunting">
+          <span class="sidebar__item-icon">🔪</span>
+          <span class="sidebar__item-name">السكاكين والمسنات</span>
+          <span class="sidebar__item-badge sidebar__item-badge--new">وصل حديثاً</span>
+          <span class="sidebar__item-count">+54</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+        <!-- 6 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="lights">
+          <span class="sidebar__item-icon">💡</span>
+          <span class="sidebar__item-name">الكشافات والإضاءة</span>
+          <span class="sidebar__item-count">+38</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+        <!-- 7 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="camp">
+          <span class="sidebar__item-icon">🚙</span>
+          <span class="sidebar__item-name">معدات وتجهيز السيارات</span>
+          <span class="sidebar__item-count">+24</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+        <!-- 8 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="hunting">
+          <span class="sidebar__item-icon">🦅</span>
+          <span class="sidebar__item-name">لوازم الصيد والمقناص</span>
+          <span class="sidebar__item-badge sidebar__item-badge--vip">حصري</span>
+          <span class="sidebar__item-count">+62</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+        <!-- 9 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="hunting">
+          <span class="sidebar__item-icon">🦯</span>
+          <span class="sidebar__item-name">العصي التراثية</span>
+          <span class="sidebar__item-count">+19</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+        <!-- 10 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="all">
+          <span class="sidebar__item-icon">🕶️</span>
+          <span class="sidebar__item-name">ساعات وكابات ونظارات</span>
+          <span class="sidebar__item-count">+31</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+        <!-- 11 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="camp">
+          <span class="sidebar__item-icon">⛺</span>
+          <span class="sidebar__item-name">جلسات وخيم المجالس</span>
+          <span class="sidebar__item-badge sidebar__item-badge--vip">خيم ملكية</span>
+          <span class="sidebar__item-count">+18</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+        <!-- 12 -->
+        <a href="#products-tabs" class="sidebar__nav-item" data-cat-filter="all">
+          <span class="sidebar__item-icon">🎲</span>
+          <span class="sidebar__item-name">ألعاب الكشتات والبر</span>
+          <span class="sidebar__item-count">+15</span>
+          <svg class="icon sidebar__chevron"><use href="#i-arrow-left"/></svg>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Customer Support & Brand Services -->
+    <div class="sidebar__section">
+      <div class="sidebar__section-title">
+        <span>خدمات ومساعدة العملاء</span>
+      </div>
+      <div class="sidebar__links-grid">
+        <a href="https://wa.me/966500000000" target="_blank" rel="noopener" class="sidebar__util-link">
+          <span class="sidebar__util-icon sidebar__util-icon--wa">
+            <svg class="icon"><use href="#i-headphones"/></svg>
+          </span>
+          <div>
+            <strong>استشارة خبير كشتات</strong>
+            <small>محادثة واتساب فورية مباشرة</small>
+          </div>
+        </a>
+        <a href="#story" class="sidebar__util-link">
+          <span class="sidebar__util-icon">
+            <svg class="icon"><use href="#i-shield"/></svg>
+          </span>
+          <div>
+            <strong>عن علامة الحر ورؤيتنا</strong>
+            <small>القصة، الجودة الإماراتية، الضمان الذهبي</small>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar Footer -->
+  <div class="sidebar__foot">
+    <div class="sidebar__foot-row">
+      <div class="sidebar__country">
+        <span>🇦🇪 الإمارات (د.إ)</span>
+        <span class="sep" style="color:var(--muted-2); margin-inline:6px;">|</span>
+        <span>🇸🇦 السعودية (ر.س)</span>
+      </div>
+    </div>
+    <div class="sidebar__social">
+      <a href="https://www.instagram.com/alhor_uae" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a>
+      <a href="#" aria-label="TikTok"><svg class="icon"><use href="#i-tiktok"/></svg></a>
+      <a href="#" aria-label="Snapchat"><svg class="icon"><use href="#i-snapchat"/></svg></a>
+      <a href="#" aria-label="X"><svg class="icon"><use href="#i-x-social"/></svg></a>
+    </div>
+  </div>
+</aside>
+
+<!-- Toast Feedback -->
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <div class="toast__img" id="toast-img"><img src="" alt=""></div>
+  <div class="toast__text">
+    <span id="toast-text"></span>
+    <small>تمت الإضافة للسلة بنجاح 🎉</small>
+  </div>
+  <button class="toast__action" id="toast-view">عرض السلة</button>
+</div>
+
+<!-- ══════════════════════════════════════════
+     SVG Icon Sprite
+     ══════════════════════════════════════════ -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4H6z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></symbol>
+  <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+  <symbol id="i-chevron-d" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M1 3h15v13H1z"/><path d="m16 8 4 0 3 4v4h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+  <symbol id="i-gift" viewBox="0 0 24 24"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></symbol>
+  <symbol id="i-headphones" viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></symbol>
+  <symbol id="i-x-social" viewBox="0 0 24 24"><path d="M4 4l6.4 8.3L4 20h2l5.2-6.2L15.6 20H21l-6.8-8.8L20 4h-2l-4.8 5.7L9.4 4H4z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></symbol>
+  <symbol id="i-snapchat" viewBox="0 0 24 24"><path d="M12 2c-2.5 0-4.5 1.4-5.2 3.6-.3.9-.3 2 0 3.4-1 .2-2 .6-2 1.2 0 .7 1 1 2 1.2.1.1 0 .4-.2.7-.6 1-2 2.3-3.4 3 .4.6 2 1 3.8.8.1.8.4 1.6.4 1.6.3.6 1 .5 2 .2.8-.2 1.6-.5 2.6-.5s1.8.3 2.6.5c1 .3 1.7.4 2-.2 0 0 .3-.8.4-1.6 1.8.2 3.4-.2 3.8-.8-1.4-.7-2.8-2-3.4-3-.3-.3-.3-.6-.2-.7 1-.2 2-.5 2-1.2 0-.6-1-1-2-1.2.3-1.4.3-2.5 0-3.4C16.5 3.4 14.5 2 12 2z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" fill="none"/></symbol>
+</svg>
+
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>
